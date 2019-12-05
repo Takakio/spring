@@ -6,6 +6,7 @@ public class CidadeFormDTO {
 	
 	private String nome;
 	private Estado estado;
+	private EstadoDTO estadoDTO;
 	
 	public String getNome() {
 		return nome;
@@ -13,5 +14,9 @@ public class CidadeFormDTO {
 	
 	public Estado getEstado() {
 		return estado;
+	}
+	
+	public EstadoDTO getEstadoDTO() {
+		return estadoDTO;
 	}
 }
